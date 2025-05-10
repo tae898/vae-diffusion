@@ -25,9 +25,9 @@ This notebook covers the fundamental concepts of Variational Autoencoders (VAEs)
 - Motivation behind generative models and latent variable models
 - The Evidence Lower Bound (ELBO) objective
 - Reparameterization trick for training VAEs
-- Implementation of a VAE with both Bernoulli and Gaussian likelihoods
-- Comparison of different likelihood models and their effects on image generation
-  quality
+- Implementation of VAEs using both **Multi-Layer Perceptron (MLP)** and **Convolutional Neural Network (CNN)** architectures
+- Exploration of both Bernoulli and Gaussian likelihoods for the decoder
+- Comparison of different likelihood models and architectures, and their effects on image generation quality for MNIST digits
 
 ---
 
@@ -52,7 +52,6 @@ This comprehensive notebook dives into diffusion models:
 - Simplified noise prediction objective
 - Implementation of a diffusion model with:
   - ShuffleNet-based UNet architecture
-  - Exponential Moving Average (EMA) for stable training
   - Time embedding and conditioning
   - Cosine beta schedule
 
