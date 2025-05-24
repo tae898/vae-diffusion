@@ -51,7 +51,7 @@ This comprehensive notebook dives into diffusion models:
 - Variational inference and the ELBO objective for diffusion
 - Simplified noise prediction objective
 - Implementation of a diffusion model with:
-  - ShuffleNet-based UNet architecture
+  - UNet architecture
   - Time embedding and conditioning
   - Cosine beta schedule
 
