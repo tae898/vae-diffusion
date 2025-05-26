@@ -55,9 +55,11 @@ This comprehensive notebook dives into diffusion models:
   - Time embedding and conditioning
   - Cosine beta schedule
 
-### Conditional VAE and diffusion
+### Next
 
-### VAE and diffusion working together
+- Conditional VAE and diffusion
+- VAE and diffusion working together
+- Discrete modality, e.g., table, graph, text, etc.
 
 ---
 
