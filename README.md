@@ -25,9 +25,11 @@ This notebook covers the fundamental concepts of Variational Autoencoders (VAEs)
 - Motivation behind generative models and latent variable models
 - The Evidence Lower Bound (ELBO) objective
 - Reparameterization trick for training VAEs
-- Implementation of VAEs using both **Multi-Layer Perceptron (MLP)** and **Convolutional Neural Network (CNN)** architectures
+- Implementation of VAEs using both Multi-Layer Perceptron (MLP) and Convolutional
+  Neural Network (CNN) architectures
 - Exploration of both Bernoulli and Gaussian likelihoods for the decoder
-- Comparison of different likelihood models and architectures, and their effects on image generation quality for MNIST digits
+- Comparison of different likelihood models and architectures, and their effects on
+  image generation quality for MNIST digits
 
 ---
 
@@ -39,6 +41,7 @@ This notebook explores a "VAE-like" model that omits the encoder:
 - Connection between this simplified model and diffusion models
 - Implementation of a noise prediction objective
 - Demonstration of how this approach performs on MNIST data
+- Compare the classical CNN architecture with the U-Net CNN architecture
 
 ---
 
@@ -47,19 +50,20 @@ This notebook explores a "VAE-like" model that omits the encoder:
 This comprehensive notebook dives into diffusion models:
 
 - Forward and reverse processes in diffusion models
-- Beta schedules (linear vs. cosine)
+- Beta schedules (linear)
 - Variational inference and the ELBO objective for diffusion
 - Simplified noise prediction objective
 - Implementation of a diffusion model with:
   - UNet architecture
   - Time embedding and conditioning
-  - Cosine beta schedule
+  - Linear beta schedule
 
 ### Next
 
-- Conditional VAE and diffusion
-- VAE and diffusion working together
-- Discrete modality, e.g., table, graph, text, etc.
+- Conditional generation, e.g., class, text, with VAE and diffusion.
+- VAE and diffusion working together, e.g., VAE as an encoder diffusion as a decoder.
+- Discrete modality, e.g., table, graph, text, etc, with non Gaussian and continuous
+  distributions, e.g., discrete categorical.
 
 ---
 
