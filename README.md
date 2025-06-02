@@ -7,6 +7,10 @@ implementation of generative models, specifically **Variational Autoencoders (VA
 and **Diffusion Models**. These notebooks are designed to provide a clear, step-by-step
 understanding of how these powerful generative AI techniques work.
 
+📖 **Blog Post**: For a gist and overview of the concepts covered in this repository,
+check out the accompanying blog post: [From VAEs to Diffusion Models: A Step-by-Step
+Journey](https://taewoon.kim/2025-05-28-vae-diffusion/)
+
 ---
 
 ## 🚀 Installation
@@ -18,6 +22,7 @@ pip install -r requirements.txt
 ```
 
 The main dependencies are:
+
 - PyTorch (for deep learning models)
 - torchvision (for computer vision utilities)
 - matplotlib (for visualization)
@@ -76,10 +81,11 @@ This comprehensive notebook dives into diffusion models:
   - Time embedding and conditioning
   - Linear beta schedule
 
+---
+
 ### Next
 
 - Conditional generation, e.g., class, text, with VAE and diffusion.
 - VAE and diffusion working together, e.g., VAE as an encoder diffusion as a decoder.
 - Discrete modality, e.g., table, graph, text, etc, with non Gaussian and continuous
   distributions, e.g., discrete categorical.
-
