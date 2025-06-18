@@ -18,7 +18,7 @@ Journey](https://taewoon.kim/2025-05-28-vae-diffusion/)
 To run the notebooks in this repository, you'll need Python 3.8+ and the following dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install 'torch>=2.0.0' 'torchvision>=0.15.0' 'matplotlib>=3.5.0' 'tqdm>=4.64.0'
 ```
 
 The main dependencies are:
